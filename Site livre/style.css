@@ -1,0 +1,81 @@
+header{
+
+    font-family: Georgia, serif;
+    background-color: #3c3838;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    width: 100%
+}
+
+body {
+    font-family: Georgia, serif;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    max-width: 1460px;
+}
+
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #ffcc00;
+}
+
+h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.sangue {
+  color: #b22222; 
+  font-weight: bold;
+  text-shadow: 0px 0px 8px #d40000; 
+}
+
+.lagrimas {
+  color: #b22222; 
+  font-weight: bold;
+  text-shadow: 0px 0px 8px #d40000; 
+}
+
+.imagem-Meio {
+    display: block;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #ffcc00;
+}
+
+
+.VideoDorian {
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 8px;
+    border: 3px solid #ffcc00;
+}
+
+
+p {
+    font-size: 19px;
+    margin-top: 15px;
+    color: #ddd;
+}
+
+.imagem-Meio:hover,
+.VideoDorian:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}
+
+.livro {
+    color: #ffcc00;
+}
