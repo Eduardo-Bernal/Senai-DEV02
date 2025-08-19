@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 20vh;
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.logo{
+    width: 10%;
+    height: 60%;
+    background-color: white;
+}
+nav{
+    width: 30%;
+    height: 60%;
+    background-color: white;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    height: 60vh;
+}
+
+aside{
+    width: 30vw;
+    background-color: blueviolet;
+    box-shadow:  4px 4px 4px black;
+}
+
+main{
+    width: 70vw;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    height: 20vh;
+    background-color: darkgreen;
+    margin-bottom: 20px;
+    width: 50%;
+
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.646);
+}
+
+footer{
+    background-color: black;
+    height: 20vh;
+}
