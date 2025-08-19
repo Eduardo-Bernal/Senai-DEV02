@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+     font-family: "Roboto Condensed", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header {
+    background-color: #000000cb;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 80px;
+    width: auto;
+}
+
+nav {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.espaco-direita {
+    width: 80px; 
+}
+span{
+        color: beige;
+    font-size: 50px;
+   
+    padding: 70px;
+}
+
+.resumo-bg{
+    background-color: #000000cb;
+    height: 500px;
+     
+}
+.resumo-bg p{
+     color: beige;
+  font-size: 50px;
+  text-align: center;
+      color: beige;
+    font-size: 50px;
+    text-align: center;
+    padding: 70px;
+     
+}
+.resumo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin-left: 180px;
+    margin-right: 180px;
+    color: beige;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.section-eyes{
+    background-image: linear-gradient(180deg, rgba(224, 19, 231, 0.26), rgba(120, 15, 218, 0.432)) ,url(olhos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+}
+ .banner{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 2px black;
+ }
+
+  .banner p{
+    font-size: 20px;
+   
+ }
+
+.sombras{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+   flex-direction: row;
+}
+
+.sombras img{
+  height: 400px;
+  width: 400px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  object-fit:cover;
+  border-radius: 20px;
+  border: 3px solid #6b00b2;
+  flex-direction: row;
+}
+
+
+.sombras img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+ 
+}
+
+.sombras p {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    opacity: 1;
+}
+
+.sombras p:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+    opacity: 0;
+}
+
+.sombra-tlt{
+    color: beige;
+    font-size: 50px;
+    text-align: center;
+    padding: 70px;
+}
+
+.sombra-bg{
+    background-color: #000000cb;
+    height: 750px;
+     flex-direction: row;
+}
+
+.Bel-tlt{
+    display: flex;
+    justify-content: center;
+       font-size: 25px;
+      color: white;
+}
+
+.Kam-tlt{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+      color: white;
+}
+
+.Ber-tlt{
+    display: flex;
+    justify-content: center;
+       font-size: 25px;
+      color: white;
+    
+}
+
+.rodape{
+    background-color: black;
+    padding: 60px;
+}
