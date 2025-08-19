@@ -1,0 +1,161 @@
+section{
+    height: 200vh;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+
+img{
+    height: 100px;
+}
+
+.primeiro{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.segundo{
+       background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.terceiro{
+    background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.quarto{
+       background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: right;
+}
+.quinto{
+       background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.solo{
+    height: 100px;
+    display: flex;
+ 
+}
+.trio{
+       background-color: rgb(251, 255, 0);
+    height: 100px;
+    display: flex;
+ 
+}
+
+.sexto{
+       background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.solo2{
+    height: 100px;
+    display: flex;
+ 
+}
+.trio2{
+    background-color: rgb(251, 255, 0);
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.setimo{
+       background-color: aqua;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.solo3{
+    height: 100px;
+    display: flex;
+     margin-left: 5%;
+ 
+}
+.dupla3{
+    background-color: rgb(251, 255, 0);
+    height: 100px;
+    display: flex;
+ 
+}
+.trio3{
+    background-color: rgb(251, 255, 0);
+    height: 100px;
+    display: flex;
+    margin-right: 5%;
+ 
+}
+.oitavo{
+       background-color: aqua;
+       height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.solo4{
+    height: 100px;
+    display: flex;
+
+}
+.dupla4{
+    background-color: rgb(251, 255, 0);
+    width: 240px;
+    height: 100px;
+    display: flex;
+ 
+}
+.trio4{
+    background-color: rgb(251, 255, 0);
+    width: 380px;
+    height: 100px;
+    display: flex;
+}
+
+.nona{
+    background-color: aqua;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+}
+
+.solo5{
+    background-color: rgb(21, 255, 0);
+    height: 100px;
+    width: 100%;
+    display: flex;
+ 
+}
+.trio5{
+      background-color: rgb(21, 255, 0);
+    height: 100px;
+    display: flex;
+ 
+}
+
+.baixo{
+          background-color: rgb(21, 255, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
