@@ -124,17 +124,7 @@ span{
  
 }
 
-.sombras p {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-    opacity: 1;
-}
 
-.sombras p:hover {
-    transform: scale(1.02);
-    transition: transform 0.3s ease;
-    opacity: 0;
-}
 
 .sombra-tlt{
     color: beige;
