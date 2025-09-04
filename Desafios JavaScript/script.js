@@ -1,10 +1,16 @@
 //NIVEL FACIL
-//Exercicio 1
 
-//  let idadeUsuario = prompt("Digite sua idade: ")
-//  if(idadeUsuario >= 18){
-//  alert("Voce e maior de idade")}
-//  else{ alert("Voce e menor de idade")}
+// Exercicio 1
+
+ let idadeUsuario = parseInt(prompt("Digite sua idade: "))
+ 
+if (isNaN(idadeUsuario)) {
+    alert("Digite um número válido!");
+} else if (idadeUsuario >= 18) {
+    alert("Você é maior de idade");
+} else {
+    alert("Você é menor de idade");
+}
 
  //Exercicio 2
 
@@ -164,20 +170,31 @@
 
 // Exercicio 3
 
-let peso = parseFloat(prompt("Digite seu peso em Kgs"))
-let altura = parseFloat(prompt("Digite sua altura em metros"))
-let imc = parseFloat(peso / (altura * altura))
+// let peso = parseFloat(prompt("Digite seu peso em Kgs"))
+// let altura = parseFloat(prompt("Digite sua altura em metros"))
+// let imc = parseFloat(peso / (altura * altura))
 
-if(imc > 18.5){
-    alert("voce esta abaixo do peso")
-}
-if(imc > 18,5 && imc < 24,9){
-    alert("voce esta normal")
-}
-if(imc > 25 && imc < 30){
-    alert("voce esta sobrepeso")
-}
-if(imc >=  30){
-    alert("voce esta obeso")
-}
+// if(imc > 18.5){
+//     alert("voce esta abaixo do peso")
+// }
+// if(imc > 18,5 && imc < 24,9){
+//     alert("voce esta normal")
+// }
+// if(imc > 25 && imc < 30){
+//     alert("voce esta sobrepeso")
+// }
+// if(imc >=  30){
+//     alert("voce esta obeso")
+// }
 
+
+// Exercicio 4
+
+
+//  let ano = parseFloat(prompt("Digite o Ano"))
+
+//  if(ano % 4 == 0){
+//   alert("Ano Bissexto")}
+//   else{
+//   alert ("Ano normal")
+//   }
