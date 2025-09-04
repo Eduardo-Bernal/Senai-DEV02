@@ -2,33 +2,33 @@
 
 // Exercicio 1
 
- let idadeUsuario = parseInt(prompt("Digite sua idade: "))
- 
-if (isNaN(idadeUsuario)) {
-    alert("Digite um número válido!");
-} else if (idadeUsuario >= 18) {
-    alert("Você é maior de idade");
-} else {
-    alert("Você é menor de idade");
-}
+//  let idadeUsuario = parseInt(prompt("Digite sua idade: "))
 
- //Exercicio 2
+// if (isNaN(idadeUsuario)) {
+//     alert("Digite um número válido!");
+// } else if (idadeUsuario >= 18) {
+//     alert("Você é maior de idade");
+// } else {
+//     alert("Você é menor de idade");
+// }
 
-//   let Numero = prompt("Digite um numero: ")
+//  Exercicio 2
+
+//   let Numero = parseInt(prompt("Digite um numero: "))
 //  if(Numero > 0){
 //  alert("Positivo")}
 //  else{ alert("Negativo")}
 
-//Exercicio 3
+// Exercicio 3
 
-//   let nota = prompt("Digite um numero: ")
+//   let nota = parseInt(prompt("Digite um numero: "))
 //  if(nota >= 60){
 //  alert("Aprovado")}
 //  else{ alert("Reprovado")}
 
- // Exercicio 4
+//  Exercicio 4
 
-//    let Numero = prompt("Digite um numero: ")
+//    let Numero = parseInt(prompt("Digite um numero: "))
 //  if(Numero > 0){
 //  alert("Positivo")}
 //  else if (Numero < 0)
@@ -39,7 +39,7 @@ if (isNaN(idadeUsuario)) {
 
 // Exercicio 5
 
-//  let idadeUsuario = prompt("Digite sua idade: ")
+//  let idadeUsuario = parseInt(prompt("Digite sua idade: "))
 
 //  if(idadeUsuario < 12){
 //  alert("Voce e crianca")}
@@ -48,9 +48,9 @@ if (isNaN(idadeUsuario)) {
 //  else if(idadeUsuario >= 18)
 //     {alert("Voce e adulto")}
 
- // Exercicio 6
+//  Exercicio 6
 
-//  let numero = 4
+// let numero = parseInt(prompt("Digite um numero: "))
 
 //  if(numero % 2 == 0){
 //   alert("Numero e par")}
@@ -58,34 +58,30 @@ if (isNaN(idadeUsuario)) {
 //     ("Numero e impar")
 //   }
 
-//NIVEL INTERMEDIARIO
+// NIVEL INTERMEDIARIO
 
 // Exercicio 1
 
-// let numero1 = prompt("Digite o numero 1")
-// let numero2 = prompt("Digite o numero 2")
-// let numero1Int = parseInt(numero1);
-// let numero2Int = parseInt(numero2);
+// let numero1 = parseInt(prompt("Digite o numero 1"))
+// let numero2 = parseInt(prompt("Digite o numero 2"))
 // let operador = prompt("Digite o operador, sendo eles +, -, /, ou *")
 // let resultado = 0
 
 // if(operador == "+"){
-//     resultado = numero1Int + numero2Int 
-//     {alert(`Seu resultado é: ${resultado}`)}
+//     resultado = numero1 + numero2 
 // }
 // else if(operador == "-"){
-//     resultado = numero1Int - numero2Int 
-//     {alert(`Seu resultado é: ${resultado}`)}
+//     resultado = numero1 - numero2
 // }
 // else if(operador == "*"){
-//     resultado = numero1Int * numero2Int
-//     {alert(`Seu resultado é: ${resultado}`)}
+//     resultado = numero1 * numero2
 // }
 // else if(operador == "/"){
-//     resultado = numero1Int / numero2Int
-//     {alert(`Seu resultado é: ${resultado}`)}
+//     resultado = numero1 / numero2
 // }
+//  {alert(`Seu resultado é: ${resultado}`)}
  
+
 // Exercicio 2
 
 // let numero1 = parseInt(prompt("Digite o numero 1"))
@@ -191,10 +187,20 @@ if (isNaN(idadeUsuario)) {
 // Exercicio 4
 
 
-//  let ano = parseFloat(prompt("Digite o Ano"))
+ let ano = parseFloat(prompt("Digite o Ano"))
+let bissexto = false
 
-//  if(ano % 4 == 0){
-//   alert("Ano Bissexto")}
-//   else{
-//   alert ("Ano normal")
-//   }
+ if(ano % 400 == 0){
+  bissexto = true}
+ else if(ano % 100 == 0){
+  bissexto = false}
+ else if(ano % 4 == 0){
+  bissexto = true}
+
+  if(bissexto == true){
+    alert("Ano Bissexto")
+  }
+  else{
+    alert("Ano normal")
+  }
+
