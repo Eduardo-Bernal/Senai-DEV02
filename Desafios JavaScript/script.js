@@ -155,6 +155,8 @@
 // Exercicio 2
 
 //   let nota = parseInt(prompt("Digite a nota: "))
+// if (nota > 100 || nota < 0) {
+//  alert("digite uma nota valida")}
 //  if(nota >= 90){
 //  alert("Nivel A")}
 //  if(nota < 90 && nota > 80){
