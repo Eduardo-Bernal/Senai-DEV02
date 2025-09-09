@@ -57,13 +57,43 @@
     //     chute = parseInt(prompt("Numero maior tente novamente"));
     // } 
     // }       
-    //  alert("Boa man se ganhou o numero certo era: " + numero);
+    //  alert("Boa man se acertou o numero certo era: " + numero);
     
     //TODO Exercicio 3 // FALTA ARRUMAR A LOGICA
 
     // numero = parseInt(prompt("Insira um numero e aguarde a contagem regressiva até 0"));
 
-    // while(numero == 0){
-    //     numero = numero--
+    // while(numero >= 0){
+    //     numero--
     //     console.log(numero)
     // }
+
+    //*NIVEL HARDCORE
+
+//! Exercicio 1
+
+
+
+
+
+//! Exercicio 2
+
+    // let n = parseInt(prompt("Digite um número: "));
+    // let resultado = 1;
+    // let multiplicador = 1;
+
+    // while (multiplicador <= n) {
+    // resultado = resultado * multiplicador;
+    // multiplicador++;
+    // }
+
+    // alert("O fatorial de " + n + " é: " + resultado);
+
+    //! Exercicio 3
+
+    
+
+
+
+
+    //! Exercicio 4
